@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NAS Recovery Backup</title>
+<meta name="description" content="Information about a personal encrypted backup utility and its Google Drive access.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="./">NAS Recovery Backup</a>
+<nav aria-label="Main navigation"><a href="./">Overview</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></div></header>
+<main id="content"><div class="wrap"><p class="eyebrow">Personal backup utility</p>
+<h1>NAS Recovery Backup</h1>
+<p class="intro">A personal tool for keeping encrypted recovery copies of selected files in the account owner’s Google Drive.</p>
+<p>The owner runs the backup software on their own equipment. It transfers encrypted backup data to Drive, checks existing copies, and retrieves them when recovery is needed.</p>
+<h2>Why Google Drive access is requested</h2>
+<p>The tool uses rclone to list, read, create, update, and remove backup files as part of copying, checking, restoring, and retaining backups. It needs access to an existing backup repository, including files created before this OAuth client was configured.</p>
+<p>The requested Drive permission is broad, but the backup configuration targets the owner’s designated backup folder. The backup tool does not request Gmail access.</p>
+<h2>For the owner’s use</h2>
+<p class="note">This is a personal utility. This website provides information only; it does not offer account registration, Google sign-in, file uploads, or access to backups.</p>
+<h2>Privacy and contact</h2>
+<p>Read the <a href="privacy.html">privacy policy</a> for how data and authorization are handled, or the <a href="terms.html">terms of use</a> for the utility’s intended scope.</p>
+<p>Contact: <a href="mailto:scam.alert.notify@gmail.com">scam.alert.notify@gmail.com</a></p></div></main>
+<footer><div class="wrap">NAS Recovery Backup · Personal utility<br><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a></div></footer>
+</body>
+</html>
